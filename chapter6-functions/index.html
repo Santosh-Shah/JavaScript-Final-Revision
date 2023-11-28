@@ -6,14 +6,25 @@
   <title>Document</title>
 </head>
 <body>
+
+  <button onclick="
+  let randomValue = randomFunction();
+    alert(`${randomValue}`);
+    ">Random</button>
   <script>
-    let age = 21;
-    function ageFunction(age) {
-      console.log(`Your age is ${age}`);
+    // let age = 21;
+    // function ageFunction(age) {
+      // console.log(`Your age is ${age}`);
+    // }
+
+    // ageFunction(age);
+    // ageFunction(22);
+    function randomFunction() {
+      return Math.random() * 3;
     }
 
-    ageFunction(age);
-    ageFunction(22);
+    // let printRandomValue = randomFunction();
+
   </script>
 </body>
 </html>
