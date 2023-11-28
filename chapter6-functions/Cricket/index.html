@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cricket project</title>
+  <link rel="stylesheet" href="/projects/Cricket/style.css">
+
+  <!-- Linking CSS file-->
+  <link rel="stylesheet" href="/projects/cricket/styles/style.css">
+</head>
+<body>
+  <h2>Bat Ball Stump Game</h2>
+
+  <!--For Bat Button-->
+  <button onclick="
+  generateComputerChoice();
+  // const computerChoiceMsg = `Computer choice is ${computerChoice}`;
+
+  let resultMsg;
+  if (computerChoice === 'Ball') {
+    resultMsg = 'You won!'
+  } else if (computerChoice === 'Bat') {
+    resultMsg = `It's a tie!`;
+  } else if (computerChoice === 'Stump') {
+    resultMsg = 'Computer has won!'
+  }
+
+  alert(`You have chosen Bat, Computer choice is ${computerChoice} and ${resultMsg}`);
+
+  ">Bat</button>
+
+  <!--For Ball Button-->
+  <button onclick="
+  generateComputerChoice();
+
+  // resultMsg;
+  if (computerChoice === 'Ball') {
+    resultMsg = `It's a tie!`
+  } else if (computerChoice === 'Bat') {
+    resultMsg = `Computer has won!`;
+  } else if (computerChoice === 'Stump') {
+    resultMsg = 'You Won!'
+  }
+
+  alert(`You have chosen Ball, Computer choice is ${computerChoice} and ${resultMsg}`);
+
+  ">Ball</button>
+  <button onclick="
+  generateComputerChoice();
+
+  // resultMsg;
+  if (computerChoice === 'Ball') {
+    resultMsg = `Computer has won!`
+  } else if (computerChoice === 'Bat') {
+    resultMsg = `You won!`;
+  } else if (computerChoice === 'Stump') {
+    resultMsg = `It's a tie!`
+  }
+
+  alert(`You have chosen Stump, Computer choice is ${computerChoice} and ${resultMsg}`);
+
+  ">Stump</button>
+
+  <!-- Linking JavaScript File-->
+  <!-- <script src="/projects/cricket/scripts/script.js"></script> -->
+
+  <script>
+    let computerChoice;
+    function generateComputerChoice() {
+      // This will generate random number between 0 and 3
+      let randomNumber = Math.random() * 3;
+      if (randomNumber > 0 && randomNumber <= 1) {
+        computerChoice = 'Bat';
+      } else if (randomNumber > 1 && randomNumber <= 2) {
+        computerChoice = 'Ball';
+      } else {
+        computerChoice = 'Stump';
+      }
+    }
+  </script>
+</body>
+</html>
