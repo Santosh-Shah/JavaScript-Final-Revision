@@ -13,7 +13,7 @@
 // console.log(typeof nullValue)
 // console.log(typeof undefinedValue)
 
-// alert("Alter brother it's me");
+// alert("Alter brother it's me")
 
 
 
