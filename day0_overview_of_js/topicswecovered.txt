@@ -1,0 +1,51 @@
+here are all the topics listed from 1 to end:
+
+JavaScript for beginners
+Setting up environment
+Save and work on GitHub
+Let, const, var
+Data types and ECMA standards
+Data type conversion confusion
+Why string to number
+Comparison of data types
+Data types summary
+Stack and heap memory
+String in JavaScript
+Number and maths
+Date and time
+Array in JavaScript
+Array part 2
+Objects in depth
+Objects part 2
+Objects destructuring and JSON API
+Functions and parameters
+Functions with objects
+Global and local scope
+Scope level and mini hoisting
+this and arrow function
+Immediately invoked function
+How does JavaScript work behind the scenes
+Control flow in JavaScript
+for loop, break, and continue
+while and do-while loops
+High-order array methods: filter, map, and reduce
+DOM introduction
+All DOM selectors
+How to create a new element
+Edit and remove DOM elements
+Let’s build 4 JavaScript projects
+Events in JavaScript
+Asynchronous code
+2 projects with async
+API request and V8 engine
+Promise in JavaScript
+Now you know fetch
+Object-oriented JavaScript
+Magic of prototype
+Call and this
+Class constructor
+Bind
+Now you know objects
+Getters and setters
+Lexical scope and closure
+JavaScript ends with a story
