@@ -46,11 +46,13 @@
 
 
 
-        <!--khdhkk-->
+        <!--event-->
 
-        <h2 onclick="this.innerHTML='Ooops!'">Click on this text!</h2>
+        <!-- <h2 onclick="this.innerHTML='Ooops!'">Click on this text!</h2> -->
 
-
+        <p>Show TIme when i click on buttom</p>
+        <button onclick="displayDate()">Click to see date</button>
+        <p id="dateId"></p>
 
 
 
@@ -125,6 +127,9 @@
         // const x = document.querySelectorAll("p.intro");
         // document.getElementById("demo").innerHTML = "The first paragraph (index 0) with class = 'intro' is: " + x[1].innerHTML;
 
+        function displayDate() {
+            document.getElementById("dateId").innerHTML = Date();
+        }
     </script>
     </body>
 </html>
