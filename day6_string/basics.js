@@ -13,6 +13,7 @@ const repoCount = 50
 // console.log(myName.toUpperCase());
 // console.log(myName);
 
+
 // console.log("---------------------")
 
 // console.log(myName.charAt(2));
@@ -36,3 +37,34 @@ console.log(url.includes('com'));
 
 const words = greeting.split();
 console.log(words);
+
+
+
+
+
+
+
+
+
+
+
+// use of eval function
+
+let value1 = '5';
+let value2 = '10';
+
+// Using +
+let resultAdd = eval(value1 + value2); // '5' + '10' results in '510'
+console.log(resultAdd); // Output: 510
+
+// Using -
+let resultSub = eval(value1 - value2); // '5' - '10' results in 5 - 10
+console.log(resultSub); // Output: -5
+
+// Using *
+let resultMul = eval(value1 * value2); // '5' * '10' results in 5 * 10
+console.log(resultMul); // Output: 50
+
+// Using /
+let resultDiv = eval(value1 / value2); // '5' / '10' results in 5 / 10
+console.log(resultDiv); // Output: 0.5

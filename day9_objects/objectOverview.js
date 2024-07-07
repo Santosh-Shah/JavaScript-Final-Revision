@@ -7,6 +7,7 @@ console.log("\n-----------------Methods for Defining JavaScript Objects---------
 
 // console.log(person);
 
+
 // ussing new keyword
 // const person = new Object();
 // person.firstName = "Rajababu";
@@ -14,6 +15,9 @@ console.log("\n-----------------Methods for Defining JavaScript Objects---------
 // person.age = 22;
 
 // console.log(person);
+
+
+
 
 
 // using a object constructor in function
