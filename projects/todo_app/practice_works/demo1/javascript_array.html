@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Arrays</title>
+</head>
+<body>
+    <h1>Displaying Array Elements</h1>
+    <ul id="arrayList"></ul>
+    
+
+    <script>
+        const fruits = ["apple", "Banana", "Cherry", "Date"];
+        const list = document.getElementById("arrayList");
+
+        fruits.forEach(fruit => {
+            const li = document.createElement("li");
+            li.textContent = fruit;
+            list.appendChild(li);
+        });
+    </script>
+</body>
+</html>

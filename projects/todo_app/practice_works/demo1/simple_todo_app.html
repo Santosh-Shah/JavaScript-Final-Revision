@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Simple Todo List</h1>
+    <input id="todoInput" type="text" placeholder="Enter Todo">
+    <button id="addButton">Add Todo</button>
+    <ui id="todoList"></ui>
+
+    <script>
+        const addButton = document.getElementById("addButton");
+        const todoInput = document.getElementById("todoInput");
+        const todoList = document.getElementById("todoList");
+
+        addButton.addEventListener("click", () => {
+            const todoText = todoInput.value;
+            const li = document.createElement('li');
+            li.textContent = todoText;
+            todoList.appendChild(li);
+            todoInput.value = "";
+        });
+    </script>
+</body>
+</html>
