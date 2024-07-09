@@ -1,0 +1,60 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="myButton">Click Here</button>
+    <p id="output"></p>
+
+
+    <script>
+        const button = document.getElementById("myButton");
+        const output = document.getElementById("output");
+
+        button.addEventListener("click", function() {
+            output.innerText = "You Just Clicked Here";
+        });
+    </script>
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Remove Event Listener Example</title>
+</head>
+<body>
+  <button id="myButton">Click Me!</button>
+  <button id="removeButton">Remove Click Event</button>
+  <p id="output"></p>
+
+  <script>
+    const button = document.getElementById('myButton');
+    const removeButton = document.getElementById('removeButton');
+    const output = document.getElementById('output');
+
+    function handleClick() {
+      output.innerText = 'Button was clicked!';
+    }
+
+    button.addEventListener('click', handleClick);
+
+    removeButton.addEventListener('click', function() {
+      button.removeEventListener('click', handleClick);
+      output.innerText = 'Click event removed!';
+    });
+  </script>
+</body>
+</html>
